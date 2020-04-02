@@ -1,0 +1,23 @@
+@import "../../variables.scss";
+
+
+.button, a.button{
+  cursor: pointer;
+  min-width: 40px;
+  display: inline-block;
+  padding: 0.5rem .8rem;
+  text-align: center;
+  text-decoration: none;
+  color: $textColor;
+  background-color: $bgColor;
+  border: 1px solid $borderColor;
+  user-select: none;
+}
+.button:hover, a.button:hover {
+  background-color: $bgHoverColor;
+  text-decoration: none;
+}
+.button:active {
+  color: $textHoverColor;
+  background-color: $bgHoverColor;
+}

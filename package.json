@@ -1,0 +1,38 @@
+{
+  "name": "gridcss",
+  "version": "0.2.0",
+  "description": "Script css generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --config webpack.config.js",
+    "build": "webpack --mode production --config webpack.config.js",
+    "watch": "webpack --watch --info-verbosity verbose --mode development --config webpack.config.js",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Werdffelynir/gridcss.git"
+  },
+  "keywords": [
+    "gridcss",
+    "modules"
+  ],
+  "author": "OL Werdffelynir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Werdffelynir/gridcss/issues"
+  },
+  "homepage": "https://github.com/Werdffelynir/gridcss#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "fs": "0.0.1-security",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {}
+}

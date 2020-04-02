@@ -6,5 +6,8 @@
 /*/.idea
 /*/*/.idea
 *.iml
+/node_modules
+/vendor
 out
 gen
+

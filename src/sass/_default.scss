@@ -1,5 +1,10 @@
+@import "variables.scss";
 
-html, body {font-family: "sans-serif","sans","Ubuntu Condensed","Ubuntu"; font-size: 100%}
+
+html, body {
+    font-family: $fontFamily;
+    font-size: $fontSize;
+}
 .button,
 button,
 select,
@@ -22,19 +27,20 @@ input[type="reset"],
 input[type="submit"]{
     padding: 5px 5px;
     border-radius: 3px;
-    border: 1px solid #e0e0e0;
+    border: 1px solid $borderColor;
 }
 button, select, .button,
 input[type="reset"],
 input[type="submit"] {
     display: inline-block;
-    background-color: #ececec;
-    color: #3a3a3a;
+    background-color: $bgColor;
+    color: $textColor;
 }
 button:hover, .button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-    background-color: #e3e3e3;
+    background-color: $bgHoverColor;;
+    color: $textHoverColor;
 }
 select{background-color: inherit;}
 input[type="radio"],
@@ -44,6 +50,7 @@ input[type="color"]{padding: 0;}
 input[type="reset"]{}
 input[type="file"]{}
 
+
 h1{padding: .8rem 0 .5rem}
 h2{padding: .7rem 0 .4rem}
 h3{padding: .6rem 0 .3rem}
@@ -51,4 +58,27 @@ h4{padding: .5rem 0 .2rem}
 h5{padding: .4rem 0 .1rem}
 h6{padding: .3rem 0 .1rem}
 p{padding: .2rem 0 .1rem}
+
+
+a{color: $linkColor;}
+a:hover{color: $linkHoverColor;}
+a:focus{color: $linkHoverColor;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
