@@ -37,26 +37,26 @@ button, select, .button,
 input[type="reset"],
 input[type="submit"] {
     display: inline-block;
-    background-color: $bg-color;
-    color: $text-color;
+    //background-color: $bg-color;
+    //color: $text-color;
 }
 button:hover, .button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-    background-color: $bg-color-dark;
-    color: $text-color-dark;
+    //background-color: $bg-color-dark;
+    //color: $text-color-dark;
 }
 button:focus, .button:focus,
 input[type="reset"]:focus,
 input[type="submit"]:focus {
-    background-color: $bg-color-dark;
-    color: $text-color-dark;
+    //background-color: $bg-color-dark;
+    //color: $text-color-dark;
 }
 button:active, .button:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-    background-color: $bg-color-active;
-    color: $text-color-active;
+    //background-color: $bg-color-active;
+    //color: $text-color-active;
 }
 select{background-color: inherit;}
 input[type="radio"],

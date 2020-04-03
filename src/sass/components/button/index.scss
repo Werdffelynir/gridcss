@@ -9,7 +9,7 @@ $button-bg-hover: darken($bg-color, 80%);
 $button-color-active: lighten($text-color, 90%);
 $button-bg-active: darken($bg-color, 90%);
 
-.button, a.button{
+.button, a.button, button.button, input.button{
   cursor: pointer;
   min-width: 40px;
   display: inline-block;
@@ -21,12 +21,12 @@ $button-bg-active: darken($bg-color, 90%);
   border: $button-border;
   user-select: none;
 }
-.button:hover, a.button:hover {
+.button:hover, a.button:hover, button.button:hover, input.button:hover {
   text-decoration: none;
   color: $button-color-hover;
   background-color: $button-bg-hover;
 }
-.button:active {
+.button:active, button.button:active, input.button:active {
   color: $button-color-active;
   background-color: $button-bg-active;
 }

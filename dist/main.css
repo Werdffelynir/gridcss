@@ -64,27 +64,7 @@ input[type="submit"] {
 button, select, .button,
 input[type="reset"],
 input[type="submit"] {
-  display: inline-block;
-  background-color: #f2f2f2;
-  color: #333333; }
-
-button:hover, .button:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
-  background-color: #d9d9d9;
-  color: #4d4d4d; }
-
-button:focus, .button:focus,
-input[type="reset"]:focus,
-input[type="submit"]:focus {
-  background-color: #d9d9d9;
-  color: #4d4d4d; }
-
-button:active, .button:active,
-input[type="reset"]:active,
-input[type="submit"]:active {
-  background-color: #bfbfbf;
-  color: #b3b3b3; }
+  display: inline-block; }
 
 select {
   background-color: inherit; }
@@ -763,7 +743,7 @@ html, body, #app {
   background: white;
   border: 1px solid #cccccc; }
 
-.button, a.button {
+.button, a.button, button.button, input.button {
   cursor: pointer;
   min-width: 40px;
   display: inline-block;
@@ -775,12 +755,12 @@ html, body, #app {
   border: 1px solid #cccccc;
   user-select: none; }
 
-.button:hover, a.button:hover {
+.button:hover, a.button:hover, button.button:hover, input.button:hover {
   text-decoration: none;
   color: white;
   background-color: #262626; }
 
-.button:active {
+.button:active, button.button:active, input.button:active {
   color: white;
   background-color: #0d0d0d; }
 
