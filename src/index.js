@@ -1,8 +1,11 @@
 
+// Base styles
 import "./sass/_reset";
 import "./sass/_default";
 import "./sass/_classes";
 import "./sass/generated";
+
+// Components
 import "./sass/components/app";
 import "./sass/components/form";
 import "./sass/components/menu";
