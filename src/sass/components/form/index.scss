@@ -1,0 +1,50 @@
+@import "../../variables.scss";
+
+
+$form-border: $border-color;
+$form-color: lighten($text-color, 70%);
+$form-bg: lighten($bg-color, 10%);
+
+$form-width: 600px;
+$form-name-width: 180px;
+
+.form {
+  width: $form-width;
+
+  input {}
+
+  textarea{width: 360px; height: 80px}
+
+}
+
+.form-error {
+  display: none;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 16px;
+  background: red;
+  padding: 0.3rem;
+  font-size: 80%;
+  box-shadow: 0 1px 4px -1px black;
+}
+
+.form-head {
+}
+
+.form-body > * {
+  display: table;
+  margin-bottom: 1rem;
+}
+
+.form-body > * > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.form-body > * > *:first-child {
+  width: $form-name-width;
+  padding-right: 1rem;
+  text-align: right;
+}
+.form-footer {
+}

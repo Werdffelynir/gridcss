@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+
+$card-border: $border-color;
+$card-color: lighten($text-color, 70%);
+$card-bg: lighten($bg-color, 10%);
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  background: $card-bg;
+  border: 1px solid $card-border;
+}
+
+.card-head {
+}
+.card-body {
+}
+.card-footer {
+}

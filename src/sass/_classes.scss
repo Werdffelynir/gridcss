@@ -1,7 +1,7 @@
 .is-hidden{visibility: hidden}
 .none,.hide{display: none}
 .block{display: block}
-.inline{display: inline}
+.inline{display: inline !important;}
 .inline-block{display: inline-block}
 
 .text-left{text-align:left}
@@ -38,3 +38,12 @@
 .flex-around{display: flex; justify-content: space-around}
 .flex-between{display: flex; justify-content: space-between}
 .flex-center{display: flex; align-items: center}
+
+.font-size-80{font-size: 80%}
+.font-size-85{font-size: 85%}
+.font-size-90{font-size: 90%}
+.font-size-95{font-size: 95%}
+.font-size-100{font-size: 100%}
+
+
+

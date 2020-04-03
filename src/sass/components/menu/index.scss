@@ -1,0 +1,44 @@
+@import "../../variables";
+
+$menu-items-padding: 0.5rem 1rem;
+$menu-items-border: 1px solid $border-color;
+
+
+.menu-vertical {
+  list-style: none;
+  //margin: 0;
+  //padding: 0;
+}
+.menu-vertical > * {
+  display: block;
+}
+.menu-vertical > *:first-child > *:first-child {
+  border-top: $menu-items-border;
+}
+.menu-vertical > * > * {
+  display: block;
+  padding: $menu-items-padding;
+  border-bottom: $menu-items-border;
+  text-decoration: none;
+  user-select: none;
+}
+.menu-vertical > * > *:hover {
+  color: $text-color;
+  background: $bg-color-dark;
+  text-decoration: none;
+}
+.menu-vertical > * > *:active {
+  color: lighten($text-color, 5%);
+  background: darken($bg-color-dark, 5%);
+}
+
+.menu-active {
+
+}
+
+
+.menu {}
+.menu > * {}
+.menu > * > * {}
+
+

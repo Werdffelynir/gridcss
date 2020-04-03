@@ -22,7 +22,7 @@ css += create (values,'.mb-', 'margin-bottom', 'rem');
 css += create (values,'.ml-', 'margin-left', 'rem');
 css += create (values,'.mr-', 'margin-right', 'rem');
 
-values = [1,2,3,4,5,10,15,20,25,33,50,75,100];
+values = [1,2,3,4,5,10,15,20,25,33,50,75,80,85,90,95,96,97,98,99,100];
 css += '*[class^="width-"] {display: inline-block}' + NL;
 css += create (values,'.width-', 'width', '%');
 css += create (values,'.height-', 'height', '%');

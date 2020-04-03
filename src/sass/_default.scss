@@ -1,9 +1,11 @@
 @import "variables.scss";
 
+$input-padding: 0.6rem .8rem;
+$input-radius: 0;
 
 html, body {
-    font-family: $fontFamily;
-    font-size: $fontSize;
+    font-family: $font-family;
+    font-size: $font-size;
 }
 .button,
 button,
@@ -25,22 +27,36 @@ input[type="datetime-local"],
 input[list="browsers"],
 input[type="reset"],
 input[type="submit"]{
-    padding: 5px 5px;
-    border-radius: 3px;
-    border: 1px solid $borderColor;
+    padding: $input-padding;
+    border-radius: $input-radius;
+    border: 1px solid $border-color;
+    font-size: $font-size;
+    font-family: $font-family;
 }
 button, select, .button,
 input[type="reset"],
 input[type="submit"] {
     display: inline-block;
-    background-color: $bgColor;
-    color: $textColor;
+    background-color: $bg-color;
+    color: $text-color;
 }
 button:hover, .button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-    background-color: $bgHoverColor;;
-    color: $textHoverColor;
+    background-color: $bg-color-dark;
+    color: $text-color-dark;
+}
+button:focus, .button:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus {
+    background-color: $bg-color-dark;
+    color: $text-color-dark;
+}
+button:active, .button:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    background-color: $bg-color-active;
+    color: $text-color-active;
 }
 select{background-color: inherit;}
 input[type="radio"],
@@ -60,9 +76,9 @@ h6{padding: .3rem 0 .1rem}
 p{padding: .2rem 0 .1rem}
 
 
-a{color: $linkColor;}
-a:hover{color: $linkHoverColor;}
-a:focus{color: $linkHoverColor;}
+a{color: $link-color;}
+a:hover{color: $link-color-hover;}
+a:focus{color: $link-color-hover;}
 
 
 

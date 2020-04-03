@@ -1,6 +1,14 @@
 @import "../../variables.scss";
 
 
+$button-border: 1px solid $border-color;
+$button-color: lighten($text-color, 70%);
+$button-bg: darken($bg-color, 70%);
+$button-color-hover: lighten($text-color, 80%);
+$button-bg-hover: darken($bg-color, 80%);
+$button-color-active: lighten($text-color, 90%);
+$button-bg-active: darken($bg-color, 90%);
+
 .button, a.button{
   cursor: pointer;
   min-width: 40px;
@@ -8,16 +16,17 @@
   padding: 0.5rem .8rem;
   text-align: center;
   text-decoration: none;
-  color: $textColor;
-  background-color: $bgColor;
-  border: 1px solid $borderColor;
+  color: $button-color;
+  background-color: $button-bg;
+  border: $button-border;
   user-select: none;
 }
 .button:hover, a.button:hover {
-  background-color: $bgHoverColor;
   text-decoration: none;
+  color: $button-color-hover;
+  background-color: $button-bg-hover;
 }
 .button:active {
-  color: $textHoverColor;
-  background-color: $bgHoverColor;
+  color: $button-color-active;
+  background-color: $button-bg-active;
 }
